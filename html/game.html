@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta httpequiv="XUACompatible" content="IE=edge">
+    <meta name="viewport" content="width=devicewidth, initialscale=1.0">
+    <link rel="stylesheet" href="../css/game.css">
+    <title>simusic game</title>
+</head>
+<body>
+
+    <div id="sorce">
+        <p>:הניקוד שלך הוא</p>
+        <p id="points">0</p>
+    </div>
+    
+    <button id="startGame" onclick="startTheGame()">
+        <svg class="play-icon" viewBox="0 0 40 40">
+            <path d="M 10,10 L 30,20 L 10,30 z"></path>
+        </svg>
+        !בא לי כבר לשחק
+    </button>
+    <button id="startGame" onclick="goHome()">הביתה</button>
+    <button id="startGame" onclick="logOut()">אני רוצה להירשם</button>
+    <button id="startGame" onclick="instraction()">שכחתי ת'הוראות</button>
+
+    <img src="../image/piano back.png" alt="piano" id="piano_back">
+    <!-- <img src="../image/dark.png" alt="dark" id="dark"> -->
+    <div id="keys">
+
+        <img src="../image/Asset 12.png" alt="keys" id="key12" class="white" onclick="sound(12 , true)" >
+        <img src="../image/Asset 11.png" alt="keys" id="key11" class="black" onclick="sound(11 , true)" >
+        <img src="../image/Asset 10.png" alt="keys" id="key10" class="white" onclick="sound(10 , true)" >
+        <img src="../image/Asset 9.png" alt="keys" id="key9" class="black" onclick="sound(9 , true)" >
+        <img src="../image/Asset 8.png" alt="keys" id="key8" class="white" onclick="sound(8 , true)" >
+        <img src="../image/Asset 7.png" alt="keys" id="key7" class="white" onclick="sound(7 , true)" >
+        <img src="../image/Asset 6.png" alt="keys" id="key6" class="black" onclick="sound(6 , true)" >
+        <img src="../image/Asset 5.png" alt="keys" id="key5" class="white" onclick="sound(5 , true)" >
+        <img src="../image/Asset 4.png" alt="keys" id="key4" class="black" onclick="sound(4 , true)" >
+        <img src="../image/Asset 3.png" alt="keys" id="key3" class="white" onclick="sound(3 , true)" >
+        <img src="../image/Asset 2.png" alt="keys" id="key2" class="black" onclick="sound(2 , true)" >
+        <img src="../image/Asset 1.png" alt="keys" id="key1" class="white" onclick="sound(1 , true)">
+    </div>
+
+    <audio src="" id="ckey12"></audio>
+    <audio src="" id="ckey11"></audio>
+    <audio src="" id="dkey10"></audio>
+    <audio src="" id="dkey9"></audio>
+    <audio src="" id="ekey8"></audio>
+    <audio src="" id="fkey7"></audio>
+    <audio src="" id="fkey6"></audio>
+    <audio src="" id="gkey5"></audio>
+    <audio src="" id="gkey4"></audio>
+    <audio src="" id="akey3"></audio>
+    <audio src="" id="akey2"></audio>
+    <audio src="" id="bkey1"></audio>
+
+    <audio src="" id="fail"></audio>
+    <audio src="" id="win" ></audio>
+
+    <div id="gameOver"></div>
+
+    
+    <script src="../js/game.js"></script>
+</body>
+</html>

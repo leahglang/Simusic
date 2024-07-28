@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/log in.css">
+    <title>simusic login</title>
+</head>
+
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+      
+ 
+    <body>
+      <div class="cont">
+        <div class="form sign-in" id="sign_in">
+          <form onsubmit="logInIsValid(event)">
+            <label>
+                <input type="email" class="input" placeholder="youremail@email.com" required id="logInEmail">
+            </label>
+            <label>
+              <input type="password" name="password" placeholder="סיסמה" required id="logInPassword">
+            </label>
+            <p id="logInMassage"></p>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+          <a href="./game.html">  <input type="submit" class="btn" value="התחבר" id="submitlogIn"></a>
+          </form>
+        </div>
+    
+        <div class="sub-cont" id="logInContainer">
+          <div class="img">
+            <div class="img-text m-up">
+              <h1>?חדש כאן</h1>
+              <p>הירשם ותהנה</p>
+            </div>
+            <div class="img-text m-in">
+              <h1>?אחד משלנו</h1>
+              <p>יאללה תתחבר</p>
+            </div>
+            <div class="img-btn">
+              <span id="signUp" class="m-up">הירשם</span>
+              <span id="signUp" class="m-in">התחבר</span>
+            </div>
+          </div>
+          <div class="form sign-up" id="signUpContainer">
+            <h2>הירשם</h2>
+             <form onsubmit="signUpIsValid(event)">
+             <label>
+              
+                <input id="signUpName" type="text" class="input" placeholder="שם" required>
+             </label>
+             <label>
+              
+                <input id="signUpEmail" type="email" class="input" placeholder="youremail@email.com" required>
+             </label>
+             <label>
+              
+                <input id="signUpPassword" type="password" class="input" placeholder="סיסמה" required>
+             </label>
+             <label>
+              
+               <!-- <input id="signUpPassword1" type="password" class="input" placeholder="אשר סיסמה" required> -->
+             </label>
+             <p id="signUpMassage"></p>
+             <!-- <a href="./game.html"><input type="submit" class="btn" value="הירשם עכשיו" id="submitSignUp"></a> -->
+             <input type="submit" class="btn" value="Sign Up" id="submitSignUp">
+             </form>
+          </div>
+        </div>
+      </div>
+    <script src="../js/logIn.js"></script>
+</body>
+</html>

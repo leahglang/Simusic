@@ -1,0 +1,118 @@
+body {
+    background-image: url("../image/piano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 20px;
+    color: white;
+    margin: 0 45px;
+    overflow: hidden;
+}
+
+
+#inctractions{
+  width: 33%;
+  height: 33%;
+  left: 500px;
+  top: 20px;
+  position: relative;
+  background-color: aliceblue;
+}
+
+.square{
+  height: 300px;
+  width: 300px;
+  right: 500px;
+  backdrop-filter: blur(5px) saturate(141%);
+  -webkit-backdrop-filter: blur(5px) saturate(141%);
+  background-color: rgba(255, 89, 89, 0.33);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+
+
+ #enter {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    margin: 5% 15%;
+    border-radius: 8px;
+    height: 70px;
+    text-decoration-line: none;
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Finger Paint' ;
+}
+
+   .button {
+    display: block;
+    background-color: black;
+    width: 40%;
+    /* margin: 5% 30%; */
+    /* float: right; */
+    border-radius: 8px;
+    height: 70px;
+    text-decoration-line: none;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Finger Paint' ;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    z-index: 10;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.5s;
+  }
+  
+ 
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 60;
+  }
+
+h1,h2,h3,p {
+    font-family: 'Finger Paint';
+    margin: 0px 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    margin: 50px 400px;
+}
+
+h2 {
+    color: red;
+    background-color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(255, 252, 252);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.247);
+    font-size: large;
+    background-color: rgb(0, 0, 0);
+}
+
+img{
+	width: 200px;
+	height: auto;
+}

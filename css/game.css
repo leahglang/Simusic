@@ -1,0 +1,416 @@
+body{
+    
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'gadi_almog_alefalefalefRg';
+    background-color: #111;
+}
+
+/* background-image: url(../image/loginback.jpg); */
+@font-face {
+    font-family: 'gadi_almog_alefalefalefRg';
+    src: url('gadi-almog-regular-aaa-webfont.eot');
+    src: url('gadi-almog-regular-aaa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gadi-almog-regular-aaa-webfont.woff2') format('woff2'),
+         url('gadi-almog-regular-aaa-webfont.woff') format('woff'),
+         url('gadi-almog-regular-aaa-webfont.ttf') format('truetype'),
+         url('gadi-almog-regular-aaa-webfont.svg#gadi_almog_alefalefalefRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.c{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(236, 9, 9);
+
+}
+.c1{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(68, 27, 0);
+}
+.d{
+    box-shadow: 0 0 20px #111 inset,0 0 30px orange;
+}
+.d1{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(18, 107, 85);
+}
+.e{
+    box-shadow: 0 0 20px #111 inset,0 0 30px yellow;
+}
+.f{
+    box-shadow: 0 0 20px #111 inset,0 0 30px green;
+}
+.f1{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(0, 60, 255);
+}
+.g{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(0, 255, 242);
+}
+.g1{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(0, 18, 77);
+}
+.a{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(132, 0, 255);
+}
+.a1{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(102, 21, 21);
+}
+.b{
+    box-shadow: 0 0 20px #111 inset,0 0 30px rgb(255, 0, 179);
+}
+
+
+
+
+
+#startGame{
+        background-color: #ff7979;
+        background-image: linear-gradient(135deg, #ff9393 0%, #ea5455 100%);
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        box-shadow: 2px 2px 10px #ff7979;
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      
+    
+}
+#startGame:hover{
+    background-color: #2f3640;
+    background-image: linear-gradient(135deg, #2f3640 0%, #2f3640 100%);
+    color: #ff7979;
+    box-shadow: 2px 2px 20px #2f3640;
+    transform: translateY(-2px);
+  
+}
+.play-icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin-right: 10px;
+  }
+  
+  #piano_back{
+    width: 75%;
+    height: 725%;  
+    bottom: 70px;
+    left: 263px;
+    position: relative;
+}
+
+#dark{
+    z-index: 20;    
+    position: relative;
+    width: 50%;
+    height: 75%;  
+    bottom: 680px;
+    left: 400px;
+}
+
+.black{
+    width: 2.95%;
+    height: 3%;
+    bottom: 953px;
+    left: 681px;
+    position: relative;
+    filter: drop-shadow(0 0 0.3rem rbg);
+    z-index: 10;  
+}
+
+
+.white{
+    width: 5%;
+    height: 5%;
+    bottom: 778px;
+    left: 680px;
+    position: relative;
+    z-index: 10;
+}
+
+#key1{
+    margin-left: -40px;
+}
+#key2{
+    margin-left: -18px;
+    margin-bottom: -1px;
+}
+#key3{
+    margin-left: -30px;
+}
+#key4{
+    margin-left: -19px;
+}
+#key5{
+    margin-left: -5px;
+    margin-right: -12px;
+} 
+
+#key6{
+    margin-left: -44px;
+    margin-right: -12px;
+ }
+ #key7{
+    margin-left: -1px;
+}
+#key8{
+    margin-left: -1px;
+}
+#key9{
+    margin-right: -38px;
+}
+#key10{
+    margin-right: -20px;
+}
+#key11{
+    margin-right: -22.5px;
+}
+
+#key12{
+    margin-right: -39px;
+}
+
+
+#gameOver{
+    color: rgb(255, 255, 10);
+    -webkit-text-stroke: 1px black;
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Finger Paint";
+    margin-left: 35%;
+  
+  }
+
+
+
+
+/* body {
+
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'gadi_almog_alefalefalefRg';
+    background-color: #111;
+}
+
+@font-face {
+    font-family: 'gadi_almog_alefalefalefRg';
+    src: url('gadi-almog-regular-aaa-webfont.eot');
+    src: url('gadi-almog-regular-aaa-webfont.eot?#iefix') format('embedded-opentype'),
+        url('gadi-almog-regular-aaa-webfont.woff2') format('woff2'),
+        url('gadi-almog-regular-aaa-webfont.woff') format('woff'),
+        url('gadi-almog-regular-aaa-webfont.ttf') format('truetype'),
+        url('gadi-almog-regular-aaa-webfont.svg#gadi_almog_alefalefalefRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.c {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(236, 9, 9);
+}
+
+.c1 {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(68, 27, 0);
+}
+
+.d {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px orange;
+}
+
+.d1 {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(18, 107, 85);
+}
+
+.e {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px yellow;
+}
+
+.f {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px green;
+}
+
+.f1 {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(0, 60, 255);
+}
+
+.g {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(0, 255, 242);
+}
+
+.g1 {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(0, 18, 77);
+}
+
+.a {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(132, 0, 255);
+}
+
+.a1 {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(102, 21, 21);
+}
+
+.b {
+    box-shadow: 0 0 20px #111 inset, 0 0 30px rgb(255, 0, 179);
+}
+
+#startGame {
+    background-color: #ff7979;
+    background-image: linear-gradient(135deg, #ff9393 0%, #ea5455 100%);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #ff7979;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#startGame:hover {
+    background-color: #2f3640;
+    background-image: linear-gradient(135deg, #2f3640 0%, #2f3640 100%);
+    color: #ff7979;
+    box-shadow: 2px 2px 20px #2f3640;
+    transform: translateY(-2px);
+}
+
+.play-icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin-right: 10px;
+}
+
+#piano_back {
+    width: 75%;
+    height: auto;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+#dark {
+    z-index: 20;
+    position: relative;
+    width: 50%;
+    height: auto;
+    bottom: 680px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.black,
+.white {
+    width: 8%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+#key1 {
+    margin-left: -40px;
+}
+
+#key2 {
+    margin-left: -18px;
+    margin-bottom: -1px;
+}
+
+#key3 {
+    margin-left: -30px;
+}
+
+#key4 {
+    margin-left: -19px;
+}
+
+#key5 {
+    margin-left: -5px;
+    margin-right: -12px;
+}
+
+#key6 {
+    margin-left: -44px;
+    margin-right: -12px;
+}
+
+#key7 {
+    margin-left: -1px;
+}
+
+#key8 {
+    margin-left: -1px;
+}
+
+#key9 {
+    margin-right: -38px;
+}
+
+#key10 {
+    margin-right: -20px;
+}
+
+#key11 {
+    margin-right: -22.5px;
+}
+
+#key12 {
+    margin-right: -39px;
+}
+
+#gameOver {
+    color: rgb(255, 255, 10);
+    -webkit-text-stroke: 1px black;
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Finger Paint";
+    margin-left: 35%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #piano_back {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .black,
+    .white {
+        width: 10%;
+        height: auto;
+        margin: 1% 0;
+    }
+
+    #startGame {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px 0;
+    }
+
+    #gameOver {
+        font-size: 24px;
+        margin-left: 10%;
+        text-align: center;
+    }
+} */
+
+
